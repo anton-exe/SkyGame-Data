@@ -16,7 +16,7 @@ To make sure the format of data doesn't change unexpectedly, this project follow
 
 * **Major** versions are incremented when the structure of assets classified as "stable" changes.
 * **Minor** versions are incremented when backward-compatible changes are made to the data, or when assets classified as "unstable" are changed.
-* **Patches** are used for additions and changes to the data, without structural changes to the project.
+* **Patch** versions are incremented when data is added or changed without any structural changes to the project.
 
 ### CDN
 
@@ -32,6 +32,22 @@ Below are some examples for the `everything.json` file.
 
 
 ## Assets
+
+**Stable**
+
+```
+realms, areas, winged-lights, map-shrines, constellations,
+seasons, events, event-instances, event-instance-spirits,
+spirits, spirit-trees, spirit-tree-tiers, nodes,
+traveling-spirits, returning-spirits,
+items, item-lists, shops, iaps
+```
+
+**Unstable**
+
+```
+candles
+```
 
 ### Asset GUIDs
 
