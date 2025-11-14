@@ -3,9 +3,7 @@
     "guid": "LHByI2HCpt",
     "date": "2025-03-03",
     "endDate": "2025-03-16",
-    "spirits": [
-      { "guid": "UpYjlrT9f2", "spirit": "8WMnysBWNd", "tree": "JU8XT42DBX" }
-    ],
+    "spirits": ["UpYjlrT9f2"],
     "shops": ["8avc2MnBQV"],
     "calculatorData": {
       "dailyCurrencyAmount": 6,

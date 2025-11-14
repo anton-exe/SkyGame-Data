@@ -3,9 +3,7 @@
     "guid": "Fzgs71vx4q",
     "date": "2024-09-16",
     "endDate": "2024-09-29",
-    "spirits": [
-      { "guid": "SXFhpDBJAd", "spirit": "tXkUX6GU6W", "tree": "i_k3DZGBKo" }
-    ],
+    "spirits": ["SXFhpDBJAd"],
     "shops": ["EFRo-sMbYE"],
     "calculatorData": {
       "dailyCurrencyAmount": 5
@@ -18,9 +16,7 @@
     "guid": "a1A9-xCNTW",
     "date": "2025-09-29",
     "endDate": "2025-10-12",
-    "spirits": [
-      { "guid": "HqyvmbuhoY", "spirit": "tXkUX6GU6W", "tree": "CX1CIWT9Vw" }
-    ],
+    "spirits": ["HqyvmbuhoY"],
     "shops": ["YBHZlLBbgl", "Q9PXGV2pXd", "88_wbWmsEK"],
     "calculatorData": {
       "dailyCurrencyAmount": 5,

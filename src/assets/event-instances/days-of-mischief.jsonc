@@ -16,27 +16,21 @@
         "date": { "day": 18, "month": 10, "year": 2021 },
         "endDate": { "day": 7, "month": 11, "year": 2021 },
         "shops": ["G95tJMU080", "h4SPErtdmX", "txm1D8yjKM"],
-        "spirits": [
-          { "guid": "ACtiGG4_cq", "spirit": "TgUgZjfoMI", "tree": "EUQHt6adrz" }
-        ]
+        "spirits": ["ACtiGG4_cq"]
       },
       {
         "guid": "cAAT3VXGVV",
         "date": { "day": 24, "month": 10, "year": 2022 },
         "endDate": { "day": 13, "month": 11, "year": 2022 },
         "shops": ["NTt-KZd_Za", "MGl2DwfM6Y", "vl6JA53gfO", "JfjTkXjClo"],
-        "spirits": [
-          { "guid": "PNYNgV6au9", "spirit": "TgUgZjfoMI", "tree": "4YsCmESmY1" }
-        ]
+        "spirits": ["PNYNgV6au9"]
       },
       {
         "guid": "2oUBCvAWSZ",
         "date": { "day": 23, "month": 10, "year": 2023 },
         "endDate": { "day": 12, "month": 11, "year": 2023 },
         "shops": ["9fm21Pk5Sf", "joutFMbmnc"],
-        "spirits": [
-          { "guid": "xy55AAqxLx", "spirit": "TgUgZjfoMI", "tree": "OvltVBKe--" }
-        ],
+        "spirits": ["xy55AAqxLx"],
         "_calendar": {
           "href": "https://skydreamers.notion.site/Days-of-Mischief-2408261c87dd80c79482e220d9eb40b3?pvs=25"
         }
@@ -45,9 +39,7 @@
         "guid": "wP5g0S3v4c",
         "date": "2024-10-21",
         "endDate": "2024-11-10",
-        "spirits": [
-          { "guid": "pDb2vfSAh_", "spirit": "ihZx_rVl70", "tree": "fqxSeHyZf1" }
-        ],
+        "spirits": ["pDb2vfSAh_"],
         "shops": ["LN5hJvuPvC", "40FHzg2rq0", "NyBc3CvrTd"],
         "calculatorData": {
           "dailyCurrencyAmount": 5
@@ -60,9 +52,7 @@
         "guid": "kJeNJe-4Jq",
         "date": "2025-10-27",
         "endDate": "2025-11-16",
-        "spirits": [
-          { "guid": "B4C5a7cCLE", "spirit": "ihZx_rVl70", "tree": "EEU4caBgcq" }
-        ],
+        "spirits": ["B4C5a7cCLE"],
         "shops": ["EjA3EokYoz", "mhn5l2qzol", "oHvSscaCRO"],
         "calculatorData": {
           "dailyCurrencyAmount": 5,

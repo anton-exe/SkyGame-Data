@@ -89,9 +89,17 @@ https://sky-planner.com/item/unlock-calculator?items=00a00g
 00g --> parseInt('00g', 36) --> ID 16 --> Pointing Candlemaker Outfit
 ```
 
+## Dates
+
+Dates are stored in the format `YYYY-MM-DD`. Sky: Children of the Light uses the `America/Los_Angeles` timezone for the daily reset, so this timezone should be respected when calculating the actual time an event begins or ends.
+
 ## Diagram
 
-The following diagram illustrates which references exist between the data. Relations marked in **bold** are stored as GUID reference in the data. Other relations are created automatically when parsing the data using the included [Scripts](#scripts).
+The following diagram illustrates which references exist between the data.
+
+References marked in **bold** are stored as GUID reference in the data. For one-to-many relations, an array of GUIDs is used. If no reference exists, the key is omitted from the data.
+
+Circular references are marked in *italic* and are created automatically when parsing the data using the included [Scripts](#scripts).
 
 ## Scripts
 

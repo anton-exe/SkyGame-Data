@@ -4,9 +4,7 @@
     "date": { "day": 2, "month": 10, "year": 2023 },
     "endDate": { "day": 15, "month": 10, "year": 2023 },
     "shops": ["31fpDpwmgr"],
-    "spirits": [
-      { "guid": "IG1s0t_vjK", "spirit": "F6BUqVCHvp", "tree": "IhEcryXJD_" }
-    ],
+    "spirits": ["IG1s0t_vjK"],
     "_calendar": {
       "href": "https://skydreamers.notion.site/Days-of-Style-2408261c87dd806d8a14e5bf110529f3?pvs=25"
     }
@@ -15,9 +13,7 @@
     "guid": "f-uR53V_h9",
     "date": "2024-09-30",
     "endDate": "2024-10-13",
-    "spirits": [
-      { "guid": "1nNILvsf_a", "spirit": "F6BUqVCHvp", "tree": "FBCPxTV_1R" }
-    ],
+    "spirits": ["1nNILvsf_a"],
     "shops": ["S8yOonCTNk", "Y4ohW7ioCN"],
     "calculatorData": {
       "dailyCurrencyAmount": 5

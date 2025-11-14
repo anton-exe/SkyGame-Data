@@ -3,18 +3,14 @@
         "guid": "7eNLae0wS1",
         "date": { "day": 23, "month": 5, "year": 2022 },
         "endDate": { "day": 5, "month": 6, "year": 2022 },
-        "spirits": [
-          { "guid": "2Xcu_VsRwC", "spirit": "fEcI6neh6f", "tree": "15T8Gelv5Z" }
-        ]
+        "spirits": ["2Xcu_VsRwC"]
       },
       {
         "guid": "3k4_OrNBWj",
         "date": { "day": 3, "month": 7, "year": 2023 },
         "endDate": { "day": 16, "month": 7, "year": 2023 },
         "shops": ["Vu7frzDGdC"],
-        "spirits": [
-          { "guid": "Flt5-UZMV_", "spirit": "fEcI6neh6f", "tree": "l1qSIM0q3H" }
-        ],
+        "spirits": ["Flt5-UZMV_"],
         "_calendar": {
           "href": "https://skydreamers.notion.site/Days-of-Music-2408261c87dd804bb7beece7cc411f30?pvs=25"
         }
@@ -23,9 +19,7 @@
         "guid": "BfJL68LKO8",
         "date": "2024-11-25",
         "endDate": "2024-12-11",
-        "spirits": [
-          { "guid": "IDMCkDUvXq", "spirit": "fEcI6neh6f", "tree": "jOEcQRyMJ-" }
-        ],
+        "spirits": ["IDMCkDUvXq"],
         "shops": ["7VpHmkvmRL", "5AVN0e5JLo"],
         "calculatorData": {
           "dailyCurrencyAmount": 4,
