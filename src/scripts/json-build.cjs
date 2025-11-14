@@ -22,7 +22,10 @@ fs.readdirSync(dirSrcAssets).forEach(folderName => {
       }
 
       // Only jsonc files.
-      if (!file.endsWith('.jsonc')) { return; }
+      if (!file.endsWith('.jsonc')) {
+        console.warn('Skipping non-jsonc file:', file);
+        return;
+      }
 
       // Parse file.
       const filePath = path.join(dirCurrent, file);
@@ -44,7 +47,9 @@ fs.readdirSync(dirSrcAssets).forEach(folderName => {
   // Write data
   const data = { items };
   everything[folderName] = data;
+  console.log('Writing', items.length, 'items to', `${folderName}.json`);
   fs.writeFileSync(path.join(dirOutAssets, `${folderName}.json`), JSON.stringify(data));
+  fs.writeFileSync(path.join(dirOutAssets, `${folderName}_guids.json`), JSON.stringify(items.map(i => i.guid)));
 });
 
 // Write everything.json
