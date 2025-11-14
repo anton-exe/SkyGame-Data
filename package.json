@@ -1,0 +1,31 @@
+{
+  "name": "skygame-data",
+  "version": "0.0.1",
+  "description": "Data repository for SkyGame-Planner.",
+  "scripts": {
+    "json-build": "node ./src/scripts/json-build.cjs",
+    "build": "npm run json-build && tsc"
+  },
+  "main": "index.js",
+  "type": "module",
+  "files": [
+    "dist",
+    "assets"
+  ],
+  "author": "Silverfeelin",
+  "license": "MIT",
+  "homepage": "https://github.com/Silverfeelin/SkyGame-Data#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Silverfeelin/SkyGame-Data.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Silverfeelin/SkyGame-Data/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "jsonc-parser": "^3.3.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
