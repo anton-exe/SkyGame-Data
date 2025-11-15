@@ -72,7 +72,6 @@ fs.readdirSync(dirSrcAssets).forEach(folderName => {
   everything[camelCaseFolderName] = data;
   console.log('Writing', items.length, 'items to', `${folderName}.json`);
   fs.writeFileSync(path.join(dirOutAssets, `${folderName}.json`), JSON.stringify(data));
-  fs.writeFileSync(path.join(dirOutAssets, `${folderName}_guids.json`), JSON.stringify(items.map(i => i.guid)));
 });
 
 // Write everything.json
