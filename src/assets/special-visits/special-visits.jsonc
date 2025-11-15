@@ -2,8 +2,8 @@
   {
     "guid": "TJBbJd4iQY",
     "name": "Special Visit #1",
-    "date": { "day": 6, "month": 3, "year": 2023 },
-    "endDate": { "day": 19, "month": 3, "year": 2023 },
+    "date": "2023-03-06",
+    "endDate": "2023-03-19",
     "area": "-y0hYE5huj",
     "spirits": ["StIWLq-J8E", "JSaaGAkVDq", "o_tmR_1217", "Ivm3vQWGas"],
     "_wiki": {
@@ -17,16 +17,16 @@
     "guid": "7tvWNUHLPq",
     "name": "TS Error",
     "area": "zewkN917oz",
-    "date": { "day": 13, "month": 4, "year": 2023 },
-    "endDate": { "day": 13, "month": 4, "year": 2023 },
+    "date": "2023-04-13",
+    "endDate": "2023-04-13",
     "spirits": ["dvrEFaKH9W"]
   },
   {
     "guid": "qEAUu9cHFK",
     "name": "Special Visit #2",
     "area": "Xr2ZiVSV7p",
-    "date": { "day": 15, "month": 5, "year": 2023 },
-    "endDate": { "day": 21, "month": 5, "year": 2023 },
+    "date": "2023-05-15",
+    "endDate": "2023-05-21",
     "spirits": ["bzGKWgFMKF", "pz5xSDZ_fX", "vozTqgFZQE"],
     "_wiki": {
       "href": "https://sky-children-of-the-light.fandom.com/wiki/Returning_Spirits#May_15,_2023"
@@ -39,8 +39,8 @@
     "guid": "3O8bFSoepH",
     "name": "Special Visit #3",
     "area": "3YSSmw01DR",
-    "date": { "day": 3, "month": 7, "year": 2023 },
-    "endDate": { "day": 16, "month": 7, "year": 2023 },
+    "date": "2023-07-03",
+    "endDate": "2023-07-16",
     "spirits": ["v7jX8IBTxw", "yBDtfZh_p_", "hFrCvf2A6H", "RH2eAIN8_q"],
     "_wiki": {
       "href": "https://sky-children-of-the-light.fandom.com/wiki/Returning_Spirits#July_3,_2023"
@@ -53,8 +53,8 @@
     "guid": "ttGkPFNNOT",
     "name": "Special Visit #4",
     "area": "aUAXUdnBge",
-    "date": { "day": 7, "month": 8, "year": 2023 },
-    "endDate": { "day": 13, "month": 8, "year": 2023 },
+    "date": "2023-08-07",
+    "endDate": "2023-08-13",
     "spirits": ["gy-9CQ4Syi", "kfw1NERKJg", "viFzD6mWuj", "uwiepwLqKg"],
     "_wiki": {
       "href": "https://sky-children-of-the-light.fandom.com/wiki/Returning_Spirits#August_7,_2023"
@@ -67,8 +67,8 @@
     "guid": "wRX6f7hzp2",
     "name": "Special Visit #5",
     "area": "bq6AFJ7avU",
-    "date": { "day": 4, "month": 3, "year": 2024 },
-    "endDate": { "day": 17, "month": 3, "year": 2024 },
+    "date": "2024-03-04",
+    "endDate": "2024-03-17",
     "spirits": ["iKlXEwKTqi", "hQ1XSTYSM9", "jlNyM5x2Rg", "Qkhq0BE7Ln"],
     "_wiki": {
       "href": "https://sky-children-of-the-light.fandom.com/wiki/Returning_Spirits#August_7,_2023"
@@ -81,8 +81,8 @@
     "guid": "rl5AKvlsER",
     "name": "Special Visit #6",
     "area": "JdoOxvcKlP",
-    "date": { "day": 16, "month": 9, "year": 2024 },
-    "endDate": { "day": 29, "month": 9, "year": 2024 },
+    "date": "2024-09-16",
+    "endDate": "2024-09-29",
     "imageUrl": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/0/04/The-Void-of-Shattering-Blue.png",
     "spirits": ["w2BhPQE_d-", "rKWoWLN7vd", "QzMXr7nd0Y", "Nye5KSAude"],
     "_wiki": {
@@ -96,16 +96,16 @@
     "guid": "c-9fQnXL2Q",
     "name": "Saluting Protector Revisit",
     "area": "Mhbh0g9OdG",
-    "date": { "day": 9, "month": 12, "year": 2024 },
-    "endDate": { "day": 11, "month": 12, "year": 2024 },
+    "date": "2024-12-09",
+    "endDate": "2024-12-11",
     "spirits": ["uDajS7IQbu"]
   },
   {
     "guid": "USgkh40Fik",
     "name": "Special Visit #7",
     "area": "WZFTGjgurD",
-    "date": { "day": 13, "month": 1, "year": 2025 },
-    "endDate": { "day": 26, "month": 1, "year": 2025 },
+    "date": "2025-01-13",
+    "endDate": "2025-01-26",
     "spirits": ["wjbjjbIgZw", "h0_7az33-8", "nqueW1tvnk", "KZZTsnWuzG"],
     "_wiki": {
       "href": "https://sky-children-of-the-light.fandom.com/wiki/Returning_Spirits#January_13,_2025"
@@ -118,8 +118,8 @@
     "guid": "Jlh9r5wBYZ",
     "name": "Special Visit #8",
     "area": "IrChmrOevd",
-    "date": { "day": 7, "month": 4, "year": 2025 },
-    "endDate": { "day": 20, "month": 4, "year": 2025 },
+    "date": "2025-04-07",
+    "endDate": "2025-04-20",
     "spirits": [
       "f66-FzTuIn",
       "biQ4CuCP4E",
@@ -138,8 +138,8 @@
   {
     "guid": "o9yc20B9B_",
     "name": "Special Visit #9",
-    "date": { "day": 9, "month": 6, "year": 2025 },
-    "endDate": { "day": 22, "month": 6, "year": 2025 },
+    "date": "2025-06-09",
+    "endDate": "2025-06-22",
     "spirits": ["LLth9nq2nP", "olbY9U0lxM", "nwWdDhdluk", "iEt-8V2HNj"],
     "_calendar": {
       "href": "https://skydreamers.notion.site/Sky-Event-Calendar-FM-ec6e6134924048859b2a8410b0a8b20d?p=2028261c87dd80dc8bb3d76e177e1b4f&pm=c"
@@ -148,8 +148,8 @@
   {
     "guid": "TSbUGdWmTY",
     "name": "Special Visit #10",
-    "date": { "day": 18, "month": 8, "year": 2025 },
-    "endDate": { "day": 31, "month": 8, "year": 2025 },
+    "date": "2025-08-18",
+    "endDate": "2025-08-31",
     "spirits": ["J8STDoY-Ow", "wDVJveAXOq", "3xOSFSwG7h", "hIZaGZRtuI"],
     "_calendar": {
       "href": "https://skydreamers.notion.site/Sky-Event-Calendar-FM-ec6e6134924048859b2a8410b0a8b20d?p=2348261c87dd80fe8c1bd8183898d1b2&pm=c"

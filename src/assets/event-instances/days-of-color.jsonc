@@ -3,15 +3,15 @@
     "guid": "lm7oA1sthb",
     "name": "Days of Rainbow",
     "shortName": "Rainbow",
-    "date": { "day": 10, "month": 6, "year": 2020 },
-    "endDate": { "day": 14, "month": 6, "year": 2020 }
+    "date": "2020-06-10",
+    "endDate": "2020-06-14"
   },
   {
     "guid": "ZoR4kXzQLS",
     "name": "Days of Rainbow",
     "shortName": "Rainbow",
-    "date": { "day": 14, "month": 6, "year": 2021 },
-    "endDate": { "day": 27, "month": 6, "year": 2021 },
+    "date": "2021-06-14",
+    "endDate": "2021-06-27",
     "shops": ["CwN0xJF-1M"],
     "spirits": ["QB8tU5kao9"]
   },
@@ -19,15 +19,15 @@
     "guid": "l1kxnP--Ws",
     "name": "Days of Rainbow",
     "shortName": "Rainbow",
-    "date": { "day": 30, "month": 6, "year": 2022 },
-    "endDate": { "day": 13, "month": 7, "year": 2022 },
+    "date": "2022-06-30",
+    "endDate": "2022-07-13",
     "shops": ["ntVyLMOody", "jaDbvOGhtj"],
     "spirits": ["Qep3FZt66w"]
   },
   {
     "guid": "7H5NE9-K72",
-    "date": { "day": 1, "month": 6, "year": 2023 },
-    "endDate": { "day": 14, "month": 6, "year": 2023 },
+    "date": "2023-06-01",
+    "endDate": "2023-06-14",
     "shops": ["30CKPEMCtZ", "vMM_7I_p9N"],
     "spirits": ["aPWzZTzbkC"],
     "_calendar": {

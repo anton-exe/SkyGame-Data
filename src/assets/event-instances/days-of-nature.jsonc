@@ -1,63 +1,63 @@
 [
-      {
-        "guid": "aSrD3lSoFW",
-        "date": { "day": 22, "month": 4, "year": 2020 },
-        "endDate": { "day": 26, "month": 4, "year": 2020 },
-        "shops": ["jYaYDMPEUR"]
-      },
-      {
-        "guid": "dZSkc1dV7U",
-        "date": { "day": 19, "month": 4, "year": 2021 },
-        "endDate": { "day": 2, "month": 5, "year": 2021 },
-        "shops": ["E6LZlAW128", "oc3Izvti83"]
-      },
-      {
-        "guid": "qSiOZI_8sQ",
-        "date": { "day": 18, "month": 4, "year": 2022 },
-        "endDate": { "day": 1, "month": 5, "year": 2022 },
-        "shops": ["HzR1C5d1am", "NNulaStjmr"],
-        "spirits": ["4A_HnQqlA9"]
-      },
-      {
-        "guid": "T3MrkNukUj",
-        "date": { "day": 20, "month": 4, "year": 2023 },
-        "endDate": { "day": 7, "month": 5, "year": 2023 },
-        "shops": ["KCnEUzQsIn", "7eYyfPCMwJ"],
-        "spirits": ["yQqAEm21ED"],
-        "_calendar": {
-          "href": "https://skydreamers.notion.site/Days-of-Nature-2408261c87dd80ee86d9c2456c5c5c55?pvs=25"
+  {
+    "guid": "aSrD3lSoFW",
+    "date": "2020-04-22",
+    "endDate": "2020-04-26",
+    "shops": ["jYaYDMPEUR"]
+  },
+  {
+    "guid": "dZSkc1dV7U",
+    "date": "2021-04-19",
+    "endDate": "2021-05-02",
+    "shops": ["E6LZlAW128", "oc3Izvti83"]
+  },
+  {
+    "guid": "qSiOZI_8sQ",
+    "date": "2022-04-18",
+    "endDate": "2022-05-01",
+    "shops": ["HzR1C5d1am", "NNulaStjmr"],
+    "spirits": ["4A_HnQqlA9"]
+  },
+  {
+    "guid": "T3MrkNukUj",
+    "date": "2023-04-20",
+    "endDate": "2023-05-07",
+    "shops": ["KCnEUzQsIn", "7eYyfPCMwJ"],
+    "spirits": ["yQqAEm21ED"],
+    "_calendar": {
+      "href": "https://skydreamers.notion.site/Days-of-Nature-2408261c87dd80ee86d9c2456c5c5c55?pvs=25"
+    }
+  },
+  {
+    "guid": "gNa15Daes3",
+    "date": "2024-05-27",
+    "endDate": "2024-06-16",
+    "calculatorData": {
+      "dailyCurrencyAmount": 4
+    },
+    "spirits": ["W0-7uIUr1t"],
+    "shops": ["DLwlNPnR-r", "sYWYF2c2AJ"],
+    "_calendar": {
+      "href": "https://skydreamers.notion.site/Sky-Event-Calendar-FM-ec6e6134924048859b2a8410b0a8b20d?p=304cdc92e5424539aafd55d4d6bb8266"
+    }
+  },
+  {
+    "guid": "MY0FQKGDwt",
+    "date": "2025-04-28",
+    "endDate": "2025-05-18",
+    "spirits": ["j31zhvmXm5"],
+    "calculatorData": {
+      "dailyCurrencyAmount": 5,
+      "timedCurrency": [
+        {
+          "guid": "nP3NCQTTZp",
+          "date": "2025-04-28",
+          "endDate": "2025-05-18",
+          "amount": 15,
+          "description": "Shells around Sanctuary Island"
         }
-      },
-      {
-        "guid": "gNa15Daes3",
-        "date": { "day": 27, "month": 5, "year": 2024 },
-        "endDate": { "day": 16, "month": 6, "year": 2024 },
-        "calculatorData": {
-          "dailyCurrencyAmount": 4
-        },
-        "spirits": ["W0-7uIUr1t"],
-        "shops": ["DLwlNPnR-r", "sYWYF2c2AJ"],
-        "_calendar": {
-          "href": "https://skydreamers.notion.site/Sky-Event-Calendar-FM-ec6e6134924048859b2a8410b0a8b20d?p=304cdc92e5424539aafd55d4d6bb8266"
-        }
-      },
-      {
-        "guid": "MY0FQKGDwt",
-        "date": "2025-04-28",
-        "endDate": "2025-05-18",
-        "spirits": ["j31zhvmXm5"],
-        "calculatorData": {
-          "dailyCurrencyAmount": 5,
-          "timedCurrency": [
-            {
-              "guid": "nP3NCQTTZp",
-              "date": "2025-04-28",
-              "endDate": "2025-05-18",
-              "amount": 15,
-              "description": "Shells around Sanctuary Island"
-            }
-          ]
-        },
-        "shops": ["-oqsBuJpBi", "WkB5Rd3Ncl"]
-      }
+      ]
+    },
+    "shops": ["-oqsBuJpBi", "WkB5Rd3Ncl"]
+  }
 ]

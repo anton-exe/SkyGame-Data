@@ -1,7 +1,5 @@
 # Todo
 
-* References to assets.
-* Date formats.
 * Diagram
 * Style not recurring, replaced by moonlight?
 

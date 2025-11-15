@@ -1,8 +1,8 @@
 [
   {
     "guid": "-tLqiqDLxU",
-    "date": { "day": 12, "month": 8, "year": 2021 },
-    "endDate": { "day": 25, "month": 8, "year": 2021 },
+    "date": "2021-08-12",
+    "endDate": "2021-08-25",
     "shops": ["dgkpvIdu6r"],
     "spirits": ["DfPcIzdjQ9"]
   }

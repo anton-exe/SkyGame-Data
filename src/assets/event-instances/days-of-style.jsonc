@@ -1,8 +1,8 @@
 [
   {
     "guid": "i8pfh_3MPi",
-    "date": { "day": 2, "month": 10, "year": 2023 },
-    "endDate": { "day": 15, "month": 10, "year": 2023 },
+    "date": "2023-10-02",
+    "endDate": "2023-10-15",
     "shops": ["31fpDpwmgr"],
     "spirits": ["IG1s0t_vjK"],
     "_calendar": {

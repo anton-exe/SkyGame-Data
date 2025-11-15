@@ -2,8 +2,8 @@
   {
     "guid": "yNyYTdO1xU",
     "name": "AURORA Encore Concerts",
-    "date": { "day": 23, "month": 8, "year": 2023 },
-    "endDate": { "day": 3, "month": 9, "year": 2023 },
+    "date": "2023-08-23",
+    "endDate": "2023-09-03",
     "shops": ["wX_deEZTy9", "JX7iEUoVkg", "LxwKC9-ULx", "r8AP1_WzAv"],
     "spirits": ["7lXseoma3X"],
     "_calendar": {

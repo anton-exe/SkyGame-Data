@@ -1,67 +1,73 @@
 [
-      {
-        "guid": "-9T61aYKrW",
-        "date": { "day": 22, "month": 12, "year": 2019 },
-        "endDate": { "day": 2, "month": 1, "year": 2020 },
-        "shops": ["eWS8HsX6SC"]
-      },
-      {
-        "guid": "3kgcZhndZH",
-        "date": { "day": 21, "month": 12, "year": 2020 },
-        "endDate": { "day": 3, "month": 1, "year": 2021 },
-        "shops": ["48VKbivxaf", "akRGCtzW3O"],
-        "spirits": ["jqWTR2dvEc"]
-      },
-      {
-        "guid": "J4c68B1pj7",
-        "date": { "day": 20, "month": 12, "year": 2021 },
-        "endDate": { "day": 9, "month": 1, "year": 2022 },
-        "shops": ["xegEfESIKJ", "oGKtAz6EKJ"],
-        "spirits": ["DxybajHFDM", "p7u0Zl6gak"]
-      },
-      {
-        "guid": "-nF-0Ar_uz",
-        "date": { "day": 19, "month": 12, "year": 2022 },
-        "endDate": { "day": 8, "month": 1, "year": 2023 },
-        "shops": ["sqzCydXmsy", "2C_rKjKCNo", "zoFI7O9DM0"],
-        "spirits": ["_Kw0vriXyP", "d2BGP3fI-Y", "eXRAJOweQm"]
-      },
-      {
-        "guid": "crmlLYIhMM",
-        "date": { "day": 18, "month": 12, "year": 2023 },
-        "endDate": { "day": 7, "month": 1, "year": 2024 },
-        "shops": ["lNLRe3Rj6g", "9b6uLsot0i", "MXxF9y1GLy", "dndaVdJd5K"],
-        "spirits": ["QxEguod_7-", "fApfYKwKAR", "6OaVQ81uXo", "bSCey0rAnl", "bvZrHb4eTn"],
-        "_calendar": {
-          "href": "https://skydreamers.notion.site/Days-of-Feast-2408261c87dd80d7bed3f8ef95bf46f2?pvs=25"
+  {
+    "guid": "-9T61aYKrW",
+    "date": "2019-12-22",
+    "endDate": "2020-01-02",
+    "shops": ["eWS8HsX6SC"]
+  },
+  {
+    "guid": "3kgcZhndZH",
+    "date": "2020-12-21",
+    "endDate": "2021-01-03",
+    "shops": ["48VKbivxaf", "akRGCtzW3O"],
+    "spirits": ["jqWTR2dvEc"]
+  },
+  {
+    "guid": "J4c68B1pj7",
+    "date": "2021-12-20",
+    "endDate": "2022-01-09",
+    "shops": ["xegEfESIKJ", "oGKtAz6EKJ"],
+    "spirits": ["DxybajHFDM", "p7u0Zl6gak"]
+  },
+  {
+    "guid": "-nF-0Ar_uz",
+    "date": "2022-12-19",
+    "endDate": "2023-01-08",
+    "shops": ["sqzCydXmsy", "2C_rKjKCNo", "zoFI7O9DM0"],
+    "spirits": ["_Kw0vriXyP", "d2BGP3fI-Y", "eXRAJOweQm"]
+  },
+  {
+    "guid": "crmlLYIhMM",
+    "date": "2023-12-18",
+    "endDate": "2024-01-07",
+    "shops": ["lNLRe3Rj6g", "9b6uLsot0i", "MXxF9y1GLy", "dndaVdJd5K"],
+    "spirits": [
+      "QxEguod_7-",
+      "fApfYKwKAR",
+      "6OaVQ81uXo",
+      "bSCey0rAnl",
+      "bvZrHb4eTn"
+    ],
+    "_calendar": {
+      "href": "https://skydreamers.notion.site/Days-of-Feast-2408261c87dd80d7bed3f8ef95bf46f2?pvs=25"
+    }
+  },
+  {
+    "guid": "WSukhN_pd2",
+    "date": "2024-12-23",
+    "endDate": "2025-01-12",
+    "spirits": ["gPuttZ9X4Y", "r2t53nowZK"],
+    "shops": [
+      "kI_EvR5rIm",
+      "5AdJq1m7jY",
+      "FgBx7wuSJD",
+      "1EwbarHMzH",
+      "Frfzz94SIt"
+    ],
+    "calculatorData": {
+      "dailyCurrencyAmount": 5,
+      "timedCurrency": [
+        {
+          "guid": "FLEbbxIDG6",
+          "date": "2024-12-23",
+          "endDate": "2025-01-12",
+          "amount": 15,
+          "description": "Snowflakes around the Wonderland Cafe"
         }
-      },
-      {
-        "guid": "WSukhN_pd2",
-        "date": "2024-12-23",
-        "endDate": "2025-01-12",
-        "spirits": ["gPuttZ9X4Y", "r2t53nowZK"],
-        "shops": [
-          "kI_EvR5rIm",
-          "5AdJq1m7jY",
-          "FgBx7wuSJD",
-          "1EwbarHMzH",
-          "Frfzz94SIt"
-        ],
-        "calculatorData": {
-          "dailyCurrencyAmount": 5,
-          "timedCurrency": [
-            {
-              "guid": "FLEbbxIDG6",
-              "date": "2024-12-23",
-              "endDate": "2025-01-12",
-              "amount": 15,
-              "description": "Snowflakes around the Wonderland Cafe"
-            }
-          ]
-        },
-        "_calendar": {
-          "href": "https://skydreamers.notion.site/Sky-Event-Calendar-FM-ec6e6134924048859b2a8410b0a8b20d?p=1458261c87dd805a83d4c453cd61c190"
-        }
-      }
+      ]
+    },
+    "_calendar": {
+      "href": "https://skydreamers.notion.site/Sky-Event-Calendar-FM-ec6e6134924048859b2a8410b0a8b20d?p=1458261c87dd805a83d4c453cd61c190"
+    }
+  }
 ]

@@ -1,8 +1,8 @@
 [
   {
     "guid": "rGOuzt_d-o",
-    "date": { "day": 25, "month": 2, "year": 2022 },
-    "endDate": { "day": 10, "month": 3, "year": 2022 },
+    "date": "2022-02-25",
+    "endDate": "2022-03-10",
     "shops": ["djY7Ysc5Yf"]
   }
 ]

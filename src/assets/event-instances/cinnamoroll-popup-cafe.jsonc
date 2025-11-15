@@ -1,8 +1,8 @@
 [
   {
     "guid": "UxrJUiw6Ue",
-    "date": { "day": 27, "month": 4, "year": 2024 },
-    "endDate": { "day": 17, "month": 5, "year": 2024 },
+    "date": "2024-04-27",
+    "endDate": "2024-05-17",
     "calculatorData": {
       "dailyCurrencyAmount": 5
     },
