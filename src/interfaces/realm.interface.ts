@@ -1,12 +1,8 @@
-import type { IConfig, IGuid } from './base.interface.js';
+import type { IGuid } from './base.interface.js';
 import type { IArea } from './area.interface.js';
 import type { IWiki } from './wiki.interface.js';
 import type { IMapData } from './map-data.interface.js';
 import type { ISpirit } from './spirit.interface.js';
-
-export interface IRealmConfig extends IConfig<IRealm> {
-  _wiki: IWiki;
-}
 
 export interface IRealm extends IGuid {
   name: string;

@@ -1,12 +1,10 @@
-import type { IConfig, IGuid } from './base.interface.js';
+import type { IGuid } from './base.interface.js';
 import type { IEventInstance } from './event.interface.js';
 import type { IIAP } from './iap.interface.js';
 import type { IItemListNode } from './item-list.interface.js';
 import type { INode } from './node.interface.js';
 import type { ISeason } from './season.interface.js';
 import type { IWiki } from './wiki.interface.js';
-
-export interface IItemConfig extends IConfig<IItem> {}
 
 export interface IItem extends IGuid {
   /** Unique item ID. */

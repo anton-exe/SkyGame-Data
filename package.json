@@ -1,10 +1,11 @@
 {
   "name": "skygame-data",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Data repository for SkyGame-Planner.",
   "scripts": {
     "json-build": "node ./src/scripts/json-build.cjs",
-    "build": "npm run json-build && tsc"
+    "build": "npm run json-build && tsc",
+    "test": "tsx tests/try-parse.ts"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -36,6 +37,7 @@
     "@types/luxon": "^3.7.1",
     "@types/node": "^24.10.1",
     "ts-node": "^10.9.2",
+    "tsx": "^4.20.6",
     "typescript": "^5.9.3"
   },
   "dependencies": {

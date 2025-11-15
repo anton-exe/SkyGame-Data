@@ -1,9 +1,7 @@
-import type { IConfig, IGuid } from './base.interface.js';
-import type { ISpiritTree, ISpiritTreeTier } from './spirit-tree.interface.js';
+import type { IGuid } from './base.interface.js';
+import type { ISpiritTree } from './spirit-tree.interface.js';
 import type { ICost } from './cost.interface.js';
 import type { IItem } from './item.interface.js';
-
-export interface INodeConfig extends IConfig<INode> {}
 
 export interface INode extends IGuid, ICost {
   // #region References

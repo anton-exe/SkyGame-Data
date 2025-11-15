@@ -1,13 +1,11 @@
-import type { IConfig, IGuid } from './base.interface.js';
+import type { IGuid } from './base.interface.js';
 import type { IMapData } from './map-data.interface.js';
 import type { IMapShrine } from './map-shrine.interface.js';
 import type { IRealm } from './realm.interface.js';
-import type { IReturningSpirits } from './returning-spirits.interface.js';
+import type { ISpecialVisit } from './special-visit.interface.js';
 import type { ISpirit } from './spirit.interface.js';
 import type { IWiki } from './wiki.interface.js';
 import type { IWingedLight } from './winged-light.interface.js';
-
-export interface IAreaConfig extends IConfig<IArea> {}
 
 export interface IArea extends IGuid {
   name: string;
@@ -21,7 +19,7 @@ export interface IArea extends IGuid {
   realm: IRealm;
   spirits?: Array<ISpirit>;
   wingedLights?: Array<IWingedLight>;
-  rs?: Array<IReturningSpirits>;
+  rs?: Array<ISpecialVisit>;
   connections?: Array<IAreaConnection>;
   mapShrines?: Array<IMapShrine>;
 

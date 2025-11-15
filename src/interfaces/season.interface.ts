@@ -1,11 +1,9 @@
-import type { IConfig, IGuid, IPeriod } from './base.interface.js';
+import type { IGuid, IPeriod } from './base.interface.js';
 import type { ICalculatorData } from './calculator-data.interface.js';
 import type { IShop } from './shop.interface.js';
 import type { ISpiritTree } from './spirit-tree.interface.js';
 import type { ISpirit } from './spirit.interface.js';
 import type { ICalendarFm, IWiki } from './wiki.interface.js';
-
-export interface ISeasonConfig extends IConfig<ISeason> {}
 
 export interface ISeason extends IGuid, IPeriod {
   /** Name of the season. */

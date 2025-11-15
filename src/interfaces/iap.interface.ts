@@ -1,8 +1,6 @@
-import type { IConfig, IGuid } from './base.interface.js';
+import type { IGuid } from './base.interface.js';
 import type { IItem } from './item.interface.js';
 import type { IShop } from './shop.interface.js';
-
-export interface IIAPConfig extends IConfig<IIAP> {}
 
 export interface IIAP extends IGuid {
   /** Price in USD. */

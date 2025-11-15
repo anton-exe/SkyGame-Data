@@ -7,6 +7,16 @@ const dirOutAssets = path.join(__dirname, '../../assets');
 const guids = new Set();
 
 const everything = {};
+
+// Clean output directory
+if (fs.existsSync(dirOutAssets)) {
+  fs.readdirSync(dirOutAssets).forEach(file => {
+    fs.unlinkSync(path.join(dirOutAssets, file));
+  });
+} else {
+  fs.mkdirSync(dirOutAssets);
+}
+
 fs.readdirSync(dirSrcAssets).forEach(folderName => {
   const dirAsset = path.join(dirSrcAssets, folderName);
   if (!fs.statSync(dirAsset).isDirectory()) { return; }
@@ -57,8 +67,9 @@ fs.readdirSync(dirSrcAssets).forEach(folderName => {
   readFolder(dirAsset);  
 
   // Write data
-  const data = { items };
-  everything[folderName] = data;
+  const data = { items };  
+  const camelCaseFolderName = folderName.replace(/-([a-z])/g, (_, char) => char.toUpperCase());
+  everything[camelCaseFolderName] = data;
   console.log('Writing', items.length, 'items to', `${folderName}.json`);
   fs.writeFileSync(path.join(dirOutAssets, `${folderName}.json`), JSON.stringify(data));
   fs.writeFileSync(path.join(dirOutAssets, `${folderName}_guids.json`), JSON.stringify(items.map(i => i.guid)));

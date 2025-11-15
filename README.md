@@ -117,6 +117,8 @@ References marked in **bold** are stored as GUID reference in the data. For one-
 
 Circular references are marked in *italic* and are created automatically when parsing the data using the included [Scripts](#scripts).
 
+TODO
+
 ## Scripts
 
 The project includes some utilities to parse the data into a Javascript object with resolved GUID references. Do note that this data can not be serialized normally due to the circular references in the data, as per the diagram.

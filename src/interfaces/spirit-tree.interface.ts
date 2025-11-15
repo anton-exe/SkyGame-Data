@@ -1,12 +1,9 @@
-import { DateTime } from 'luxon';
-import type { IConfig, IGuid } from './base.interface.js';
+import type {  IGuid } from './base.interface.js';
 import type { IEventInstanceSpirit } from './event.interface.js';
 import type { INode } from './node.interface.js';
-import type { IReturningSpirit } from './returning-spirits.interface.js';
+import type { ISpecialVisitSpirit } from './special-visit-spirit.interface.js';
 import type { ISpirit } from './spirit.interface.js';
 import type { ITravelingSpirit } from './traveling-spirit.interface.js';
-
-export interface ISpiritTreeConfig extends IConfig<ISpiritTree> {}
 
 export interface ISpiritTree extends IGuid {
   name?: string;
@@ -17,7 +14,7 @@ export interface ISpiritTree extends IGuid {
   node?: INode;
   tier?: ISpiritTreeTier;
   ts?: ITravelingSpirit;
-  visit?: IReturningSpirit;
+  visit?: ISpecialVisitSpirit;
   spirit?: ISpirit;
   eventInstanceSpirit?: IEventInstanceSpirit;
 }
