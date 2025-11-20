@@ -39,8 +39,8 @@ export interface IEventInstance extends IGuid, IPeriod {
 
   /// References ///
   event: IEvent;
-  shops: Array<IShop>;
-  spirits: Array<IEventInstanceSpirit>;
+  shops?: Array<IShop>;
+  spirits?: Array<IEventInstanceSpirit>;
 
   /// Metadata ///
   _calendar?: ICalendarFm;
