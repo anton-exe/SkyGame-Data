@@ -16,7 +16,7 @@ export interface INode extends IGuid, ICost {
    * Other nodes have a reference to their `prev` node.
    * For spirit trees with friendship tiers, every node has this reference.
    */
-  spiritTree?: ISpiritTree;
+  tree?: ISpiritTree;
   /** Node north west of this node. */
   nw?: INode;
   /** Node north east of this node. */

@@ -257,7 +257,7 @@ export class SkyDataResolver {
           const node = this.guids.get(spiritTree.node as any) as INode;
           if (!node) { console.error('Node not found', spiritTree.node); }
           spiritTree.node = node;
-          node.spiritTree = spiritTree;
+          node.tree = spiritTree;
           this.resolveNode(node);
         }
 
@@ -267,7 +267,7 @@ export class SkyDataResolver {
           if (!tier) { console.error('Spirit tree tier not found', spiritTree.tier); }
           spiritTree.tier = tier;
           tier.tree = spiritTree;
-          SpiritTreeHelper.getNodes(spiritTree).forEach(n => n.spiritTree = spiritTree);
+          SpiritTreeHelper.getNodes(spiritTree).forEach(n => n.tree = spiritTree);
         }
     });
   }
