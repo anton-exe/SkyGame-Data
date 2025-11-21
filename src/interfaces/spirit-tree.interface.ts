@@ -25,7 +25,7 @@ export interface IRevisedSpiritTree extends ISpiritTree {
 
 export interface ISpiritTreeTier extends IGuid {
   /// References ///
-  spiritTree?: ISpiritTree;
+  tree?: ISpiritTree;
   prev?: ISpiritTreeTier;
   next?: ISpiritTreeTier;
   root?: ISpiritTreeTier;

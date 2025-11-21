@@ -266,7 +266,7 @@ export class SkyDataResolver {
           const tier = this.guids.get(spiritTree.tier) as ISpiritTreeTier;
           if (!tier) { console.error('Spirit tree tier not found', spiritTree.tier); }
           spiritTree.tier = tier;
-          tier.spiritTree = spiritTree;
+          tier.tree = spiritTree;
           SpiritTreeHelper.getNodes(spiritTree).forEach(n => n.spiritTree = spiritTree);
         }
     });
